@@ -8,9 +8,13 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - Flexbox
 - Positioning
 - Flat BEM file structure
-- A custom form
+- A custom form with custom checkbox
 - CSS animation and transform
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Solve "white sides" with page global background
+- Tweaks to different resolutions (like images, covering text in cases of resolution lower than 1440px)
+- Redesign recipes page. Make Youtube windows look pretty
+- Make form not just custom but functional, through making "Book a table" button work
+- Remade datetime field, made it customisable
