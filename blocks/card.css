@@ -1,11 +1,10 @@
 .card {
   font: normal normal 16px/20px "Inter", Arial, sans-serif;
   color: #000;
-  list-style-type: none;
   width: 540px;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .card__title {
@@ -13,6 +12,12 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .card__list-item {

@@ -17,16 +17,13 @@
   background-color: #0a2850;
   position: relative;
   display: flex;
-  padding: 119px 80px 173px;
+  padding: 100px 80px 173px;
   justify-content: space-between;
   overflow: hidden;
   box-sizing: border-box;
 }
 
 .about__title {
-  position: relative;
-  left: 0;
-  top: -19px;
   margin: 0;
   padding: 0;
   max-width: 251px;
@@ -37,6 +34,7 @@
 }
 
 .about__content {
+  margin: 19px 0 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -60,12 +58,6 @@
 }
 
 .about__circle_animation_blurred {
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  height: 426px;
-  width: 426px;
-  background-color: #1878dc;
   border-radius: 50%;
   animation: pulse 1.3s infinite ease-in-out;
 }
