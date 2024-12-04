@@ -58,6 +58,5 @@
 }
 
 .about__circle_animation_blurred {
-  border-radius: 50%;
   animation: pulse 1.3s infinite ease-in-out;
 }
